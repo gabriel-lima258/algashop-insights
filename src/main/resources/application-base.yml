@@ -4,4 +4,4 @@ spring:
   flyway:
     enabled: true
     locations: classpath:db/migration
-    placeholder-replacement: false
+    placeholder-replacement: false # SQL com ${...} nao vira placeholder do Flyway
